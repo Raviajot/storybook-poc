@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "storybook-poc"
+    }
+  },
+  "defaultProject": "storybook-poc",
+  "cli": {
+    "analytics": false
+  }
 }
