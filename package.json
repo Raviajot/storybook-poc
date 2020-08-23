@@ -1,5 +1,5 @@
 {
-  "name": "storybook-poc",
+  "name": "raviajotk-storybook-poc",
   "version": "0.1.0",
   "scripts": {
     "ng": "ng",
@@ -13,7 +13,7 @@
     "storybook": "yarn docs:json && start-storybook -p 6006",
     "build-storybook": "yarn docs:json && build-storybook"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "~10.0.9",
     "@angular/common": "~10.0.9",
@@ -31,6 +31,7 @@
     "@angular-devkit/build-angular": "~0.1000.6",
     "@angular/cli": "~10.0.6",
     "@angular/compiler-cli": "~10.0.9",
+    "@babel/cli": "^7.10.5",
     "@babel/core": "^7.11.4",
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-typescript": "^7.10.4",
@@ -46,8 +47,11 @@
     "@types/jasminewd2": "~2.0.3",
     "@types/jest": "^26.0.10",
     "@types/node": "^12.11.1",
+    "auto": "^9.52.0",
     "babel-loader": "^8.1.0",
     "codelyzer": "^6.0.0",
+    "cross-env": "^7.0.2",
+    "fsevents": "1.2.9",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~5.0.0",
     "jest": "^24.9.0",
@@ -113,5 +117,10 @@
       "node",
       ".html"
     ]
-  }
+  },
+  "description": "Storybook POC",
+  "main": "dist/index.js",
+  "repository": "https://github.com/Raviajot/storybook-poc.git",
+  "author": "raviajot25@gmail.com",
+  "license": "MIT"
 }
